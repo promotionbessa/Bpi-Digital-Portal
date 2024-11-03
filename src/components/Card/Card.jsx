@@ -4,8 +4,6 @@ import Biotime from '../../static/Biotime.png';
 import Glpi from '../../static/Glpi.png';
 import BessaPro from '../../static/BessaPro.png';
 import Simonto from '../../static/Simonto.png';
-import House from '../../static/House.png';
-import Internet from '../../static/Internet.png';
 import odoosupport from '../../static/odoosupport.png';
 import './Card.css'; // Import the CSS file for styling
 import { useState } from 'react';
@@ -64,7 +62,6 @@ const services = [
 ]
 
 const Card = ({ name, description,  link, state, accessibility }) => {
-  const bgColor = state === "Operational" ? '#28a745' : '#d50404';
   const foundService = services.find((item) => (item.name === name));
   const [hidden, setHidden] = useState(true);
 

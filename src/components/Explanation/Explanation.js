@@ -1,7 +1,5 @@
 import React from 'react'
 import './Explanation.css';
-import House from '../../static/House.png';
-import Internet from '../../static/Internet.png';
 
 const Explanation = () => {
   return (

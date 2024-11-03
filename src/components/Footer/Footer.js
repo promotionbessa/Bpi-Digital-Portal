@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import { color } from 'framer-motion'
 const Footer = () => {
   return (
     <div className='Footer'>
