@@ -41,7 +41,7 @@
     "name": "Odoo Test",
     "description": "Odoo test base",
     "link": "http://192.168.0.240:8069/web#cids=1&action=menu",
-    "image": "/Users/imacbessa/Downloads/Portal/service-portal/src/static/odoo.png",
+    "image": "/Users/imacbessa/Downloads/Portal/service-portal/public/odooTest.png",
     "state": true,
     "accessibility":false
 

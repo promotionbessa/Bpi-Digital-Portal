@@ -1,5 +1,6 @@
 import React from 'react'
 import odoo from '../../static/odoo.png';
+import odooTest from '../../static/odooTest.png';
 import Biotime from '../../static/Biotime.png';
 import Glpi from '../../static/Glpi.png';
 import BessaPro from '../../static/BessaPro.png';
@@ -40,7 +41,7 @@ const services = [
   },
   { 
     name: "Odoo Test", 
-    logo: odoo ,
+    logo: odooTest ,
     description: "Testing environment for Odoo",
     state : true,
     accessibility :true,      
@@ -79,14 +80,6 @@ const Card = ({ name, description,  link, state, accessibility }) => {
 
   <img src={foundService.logo} alt={`${foundService.name} logo`} className="card-image" />
 
-  {
-        name === "Odoo Test" ?
-          <div className='card-name'>
-            <p>Odoo Test</p> 
-          </div>
-          :
-          <div></div>
-      }
 
 
 
