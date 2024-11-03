@@ -9,9 +9,9 @@
   
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .main {
-    width: 100%;
-  
+    font-size: smaller-size;
+    padding: smaller-padding;
   }
 }
