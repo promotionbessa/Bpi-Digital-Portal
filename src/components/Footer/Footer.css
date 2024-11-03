@@ -5,6 +5,9 @@
   gap: 20px;
   padding: 20px;
   text-align: center;
+  width: 100%;
+  margin: 0; /* Removes any default margin */
+
 }
 
 .footer-bottom {
@@ -36,7 +39,11 @@
 .footer-section {
   padding: 10px;
   margin: 10px;
-  width: 200px;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+
 }
 
 .footer-info {
@@ -57,4 +64,11 @@
   font-size: 1.2em;
   margin-bottom: 8px;
   color: #FFFFFF;
+}
+
+
+@media (max-width: 768px) {
+  .footer-info {
+    width: 100%;
+  }
 }

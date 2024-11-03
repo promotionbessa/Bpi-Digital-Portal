@@ -5,4 +5,5 @@
   gap: 45px; /* Increase gap between cards */
   padding: 2em 2em calc(2em + env(safe-area-inset-bottom)); /* Refined padding */
   justify-items: center;
+  overflow-x: hidden;
 }
