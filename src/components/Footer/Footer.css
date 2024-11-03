@@ -6,7 +6,7 @@
   padding: 20px;
   text-align: center;
   width: 100%;
-  margin: 0; /* Removes any default margin */
+  overflow: visible;
 
 }
 
@@ -66,9 +66,18 @@
   color: #FFFFFF;
 }
 
-
 @media (max-width: 768px) {
   .footer-info {
     width: 100%;
+    overflow: visible;
+    text-align: center;
+  
   }
+  .footer-layout  p{
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    text-align: left;
+  }
+  
 }
