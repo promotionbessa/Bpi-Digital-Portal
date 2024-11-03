@@ -1,0 +1,89 @@
+/* Card Container */
+
+.card {
+  position: relative;
+  overflow: visible;
+  border-top: 0.01px solid #ccc;
+  border-left: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 40px;
+  text-align: center;
+  min-width: 300px;
+  height: 90px;
+  position: relative; /* Enable absolute positioning of ribbon */
+  transition: transform 0.2s;
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transform: scale(1.1);
+}
+
+.card-link {
+  text-Decoration: none;
+}
+
+.card-test {
+  display: flex;
+  align-items: center; /* Center-aligns items vertically */
+  gap: 15px; /* Space between card items */
+  max-height: 90px;
+}
+
+.card-image {
+  max-width: 100px; /* Limit the image width */
+  min-width: 100px; /* Limit the image width */
+  min-height: 100px; /* Limit the image width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 8px 0; /* Space around the image */
+  margin-left: 15px;
+  object-fit: contain;
+}
+
+.card-name {
+  color: #202020;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Green and Red Ribbon Variants */
+.card-badge-bg-success {
+  margin-left: auto; 
+  margin-right: 5px;
+  width: 18.59px;
+  height: 18.59px;
+  background: #42DA27;
+  border-radius: 50%
+}
+
+
+.card-badge-bg-danger {
+  margin-left: auto; 
+  margin-right: 15px;
+  width: 18.59px;
+  height: 18.59px;
+  background: #FF3C3C;
+  border-radius: 50%
+}
+
+.hover-down-arrow {
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #898989;
+  margin-right: 15px;
+}
+
+
+

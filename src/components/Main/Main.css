@@ -1,0 +1,8 @@
+.main {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjusts based on screen size */
+  gap: 45px; /* Increase gap between cards */
+  padding: 2em 2em calc(2em + env(safe-area-inset-bottom)); /* Refined padding */
+  justify-items: center;
+}
