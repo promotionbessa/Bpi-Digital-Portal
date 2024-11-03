@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 20px;
-  padding: 20px;
+  padding-top: 20px;
   text-align: center;
   width: 100%;
   overflow: visible;
@@ -71,8 +71,8 @@
     width: 100%;
     overflow: visible;
     text-align: center;
-  
   }
+
   .footer-layout  p{
     font-size: 1em;
     margin-bottom: 5px;
@@ -80,7 +80,8 @@
     text-align: center;
   }
   .footer-info {
-    display:list-item;
+    display: inline;
+/*    display:list-item;*/
   }
   
   .footer-bottom {
