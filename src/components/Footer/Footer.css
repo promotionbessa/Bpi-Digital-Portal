@@ -77,7 +77,16 @@
     font-size: 1em;
     margin-bottom: 5px;
     color: #FFFFFF;
-    text-align: left;
+    text-align: center;
+  }
+  .footer-info {
+    display:list-item;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    width: 95%;
+
   }
   
 }
