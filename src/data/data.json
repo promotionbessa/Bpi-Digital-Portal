@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Odoo",
     "description": "Odoo production base",
-    "link": "https://erp.bessapromotion.com/",
+    "link": "https://erp.bessapromotion.com/web#home",
     "image": "/Users/imacbessa/Downloads/Portal/service-portal/src/static/odoo.png",
     "state": true,
     "accessibility":true
@@ -35,25 +35,6 @@
     "state": true,
     "accessibility":true
 
-  },
-  {
-    "id": 5,
-    "name": "Odoo Test",
-    "description": "Odoo test base",
-    "link": "http://192.168.0.240:8069/web#cids=1&action=menu",
-    "image": "/Users/imacbessa/Downloads/Portal/service-portal/public/odooTest.png",
-    "state": true,
-    "accessibility":false
-
-  },
-  {
-    "id": 6,
-    "name": "Assistance IT/ODOO",
-    "description": "Assistance IT/ODOO pour les tickets de suppport IT odoo",
-    "link": "https://erp.bessapromotion.com/helpdesk",
-    "image": "/Users/imacbessa/Downloads/Portal/service-portal/src/static/odoo.png",
-    "state": false,
-    "accessibility":false
   },
   {
     "id": 7,
