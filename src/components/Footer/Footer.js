@@ -50,8 +50,8 @@ const Footer = () => {
     <p>contact@bessapromotion.com</p>
   </div>
   </div>
-  <div className="footer-bottom">
-    <p>© Copyright 2040 | Bessa Promotion Immobiliere. Tous droits réservés</p>
+  <div className="footer-layout">
+    <h4>© Copyright 2040 | Bessa Promotion Immobiliere. Tous droits réservés</h4>
   </div>
 </footer>
 
