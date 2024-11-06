@@ -6,6 +6,7 @@ import Glpi from '../../static/Glpi.png';
 import BessaPro from '../../static/BessaPro.png';
 import Simonto from '../../static/Simonto.png';
 import odoosupport from '../../static/odoosupport.png';
+import postgre from '../../static/postgre.png';
 import './Card.css'; // Import the CSS file for styling
 import { useState } from 'react';
 import Hover from '../Hover/Hover';
@@ -46,6 +47,14 @@ const services = [
     state : true,
     accessibility :true,      
   },
+  { 
+    name: "ReportingDB", 
+    logo: postgre ,
+    description: "Reporting DataBase",
+    state : true,
+    accessibility :false,      
+  },
+
   { 
     name: "ODOO Simonto", 
     logo: Simonto ,
