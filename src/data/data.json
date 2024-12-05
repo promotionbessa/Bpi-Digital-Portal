@@ -54,6 +54,33 @@
     "image": "/Users/imacbessa/Downloads/Portal/service-portal/src/static/Simonto.png",
     "state": true,
     "accessibility":false
+  },
+  {
+    "id": 8,
+    "name": "Google",
+    "description": "Lien pour google",
+    "link": "https://www.google.com/",
+    "image": "/Users/imacbessa/Downloads/Portal/service-portal/src/static/google.png",
+    "state": true,
+    "accessibility":false
+  },
+  {
+    "id": 9,
+    "name": "Hubspot",
+    "description": "Lien pour hubspot",
+    "link": "https://app.hubspot.com/contacts",
+    "image": "/Users/imacbessa/Downloads/Portal/service-portal/src/static/hubspot.png",
+    "state": true,
+    "accessibility":false
+  },
+  {
+    "id": 10,
+    "name": "Issabel",
+    "description": "Lien pour issabel",
+    "link": "https://192.168.0.50/",
+    "image": "/Users/imacbessa/Downloads/Portal/service-portal/src/static/issabel.png",
+    "state": true,
+    "accessibility":false
   }
-  
+
 ]

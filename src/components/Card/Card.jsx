@@ -7,6 +7,9 @@ import BessaPro from '../../static/BessaPro.png';
 import Simonto from '../../static/Simonto.png';
 import odoosupport from '../../static/odoosupport.png';
 import postgre from '../../static/postgre.png';
+import google from '../../static/google.png';
+import hubspot from '../../static/hubspot.png';
+import issabel from '../../static/issabel.jpeg';
 import './Card.css'; // Import the CSS file for styling
 import { useState } from 'react';
 import Hover from '../Hover/Hover';
@@ -69,6 +72,27 @@ const services = [
     state : true,
     accessibility :true,        
   },
+  { 
+    name: "Google", 
+    logo: google ,
+    description: "Lien vers google",
+    state : true,
+    accessibility :true,        
+  },
+  { 
+    name: "Hubspot", 
+    logo: hubspot ,
+    description: "Lien vers hubspot",
+    state : true,
+    accessibility :true,        
+  },
+  { 
+    name: "Issabel", 
+    logo: issabel ,
+    description: "Lien vers issabel",
+    state : true,
+    accessibility :true,        
+  }
 ]
 
 const Card = ({ name, description,  link, state, accessibility }) => {
