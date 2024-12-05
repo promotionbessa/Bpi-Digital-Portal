@@ -87,7 +87,7 @@
     "name": "odooSupport",
     "description": "Lien pour odooSupport. plateform",
     "link": "http://192.168.2.182:8069/helpdesk/support-odoo-1",
-    "image": "/Users/imacbessa/Downloads/Portal/service-portal/src/static/odooSupport.png",
+    "image": "/Users/imacbessa/Downloads/Portal/service-portal/src/static/odoosupport.png",
     "state": true,
     "accessibility":false
   },

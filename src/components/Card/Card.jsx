@@ -5,7 +5,7 @@ import Biotime from '../../static/Biotime.png';
 import Glpi from '../../static/Glpi.png';
 import BessaPro from '../../static/BessaPro.png';
 import Simonto from '../../static/Simonto.png';
-import odooSupport from '../../static/odooSupport.png';
+import odooSupport from '../../static/odoosupport.png';
 import postgre from '../../static/postgre.png';
 import google from '../../static/google.png';
 import hubspot from '../../static/hubspot.png';
