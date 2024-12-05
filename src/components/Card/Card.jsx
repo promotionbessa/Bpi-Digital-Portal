@@ -5,11 +5,12 @@ import Biotime from '../../static/Biotime.png';
 import Glpi from '../../static/Glpi.png';
 import BessaPro from '../../static/BessaPro.png';
 import Simonto from '../../static/Simonto.png';
-import odoosupport from '../../static/odoosupport.png';
+import odooSupport from '../../static/odooSupport.png';
 import postgre from '../../static/postgre.png';
 import google from '../../static/google.png';
 import hubspot from '../../static/hubspot.png';
-import issabel from '../../static/issabel.jpeg';
+import issabel1 from '../../static/issabel1.jpeg';
+import helpDesk from '../../static/helpDesk.png';
 import './Card.css'; // Import the CSS file for styling
 import { useState } from 'react';
 import Hover from '../Hover/Hover';
@@ -57,7 +58,6 @@ const services = [
     state : true,
     accessibility :false,      
   },
-
   { 
     name: "ODOO Simonto", 
     logo: Simonto ,
@@ -67,7 +67,7 @@ const services = [
   },
   { 
     name: "Assistance IT/ODOO", 
-    logo: odoosupport ,
+    logo: odooSupport ,
     description: "IT and Odoo support service",
     state : true,
     accessibility :true,        
@@ -88,11 +88,26 @@ const services = [
   },
   { 
     name: "Issabel", 
-    logo: issabel ,
+    logo: issabel1 ,
     description: "Lien vers issabel",
     state : true,
     accessibility :true,        
-  }
+},
+{ 
+  name: "odooSupport", 
+  logo: odooSupport ,
+  description: "Lien vers issabel",
+  state : true,
+  accessibility :true,        
+},
+{ 
+  name: "helpDesk", 
+  logo: helpDesk ,
+  description: "Lien vers helpDesk",
+  state : true,
+  accessibility :true,        
+}
+
 ]
 
 const Card = ({ name, description,  link, state, accessibility }) => {
@@ -110,26 +125,14 @@ const Card = ({ name, description,  link, state, accessibility }) => {
 
 
 <div className='card-test'>
-
   <img src={foundService.logo} alt={`${foundService.name} logo`} className="card-image" />
-
-
-
-
-
   {
-        state === true ?
+  state === true ?
           <div className="card-badge-bg-success"></div>
           :
           <div className="card-badge-bg-danger"></div>
       }
-
-
-
 <div class="hover-down-arrow"></div>
-
-
-  
 </div>
 
     </div>
