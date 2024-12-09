@@ -95,7 +95,7 @@
     "id": 12,
     "name": "helpDesk",
     "description": "Lien pour IT support plateform",
-    "link": "http://192.168.2.182:8069/helpdesk/support-it-2",
+    "link": "https://d2db-197-204-15-79.ngrok-free.app/",
     "image": "/Users/imacbessa/Downloads/Portal/service-portal/src/static/helpDesk.png",
     "state": true,
     "accessibility":false
