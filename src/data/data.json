@@ -36,16 +36,16 @@
     "accessibility":true
 
   },
-  {
-    "id": 5,
-    "name": "ReportingDB",
-    "description": "Reporting DataBase",
-    "link": "http://192.168.1.128:3000",
-    "image": "/Users/imacbessa/Downloads/Portal/service-portal/src/static/postgre.png",
-    "state": true,
-    "accessibility":false
+  // {
+  //   "id": 5,
+  //   "name": "ReportingDB",
+  //   "description": "Reporting DataBase",
+  //   "link": "http://192.168.1.128:3000",
+  //   "image": "/Users/imacbessa/Downloads/Portal/service-portal/src/static/postgre.png",
+  //   "state": true,
+  //   "accessibility":false
 
-  },
+  // },
   {
     "id": 7,
     "name": "ODOO Simonto",
@@ -73,24 +73,24 @@
     "state": true,
     "accessibility":false
   },
-  {
-    "id": 10,
-    "name": "Issabel",
-    "description": "Lien pour issabel",
-    "link": "https://192.168.0.50/",
-    "image": "/Users/imacbessa/Downloads/Portal/service-portal/src/static/issabel1.jpeg",
-    "state": true,
-    "accessibility":false
-  },
-  {
-    "id": 11,
-    "name": "odooSupport",
-    "description": "Lien pour odooSupport. plateform",
-    "link": "http://192.168.2.182:8069/helpdesk/support-odoo-1",
-    "image": "/Users/imacbessa/Downloads/Portal/service-portal/src/static/odoosupport.png",
-    "state": true,
-    "accessibility":false
-  },
+  // {
+  //   "id": 10,
+  //   "name": "Issabel",
+  //   "description": "Lien pour issabel",
+  //   "link": "https://192.168.0.50/",
+  //   "image": "/Users/imacbessa/Downloads/Portal/service-portal/src/static/issabel1.jpeg",
+  //   "state": true,
+  //   "accessibility":false
+  // },
+  // {
+  //   "id": 11,
+  //   "name": "odooSupport",
+  //   "description": "Lien pour odooSupport. plateform",
+  //   "link": "http://192.168.2.182:8069/helpdesk/support-odoo-1",
+  //   "image": "/Users/imacbessa/Downloads/Portal/service-portal/src/static/odoosupport.png",
+  //   "state": true,
+  //   "accessibility":false
+  // },
   {
     "id": 12,
     "name": "helpDesk",
