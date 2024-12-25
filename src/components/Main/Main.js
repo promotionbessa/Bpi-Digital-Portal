@@ -10,7 +10,7 @@ import NavBar from '../NavBar/NavBar';
 const Main = () => {
   return (
     <div>
-      <NavBar />
+      <NavBar/>
       <Header />
       <div className='main'>
         {data.map(row => (
