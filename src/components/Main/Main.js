@@ -27,7 +27,7 @@ const Main = () => {
       </div>
 
       <Explanation />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
