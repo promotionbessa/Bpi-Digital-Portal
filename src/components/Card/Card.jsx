@@ -34,7 +34,7 @@ const services = [
     name: "Glpi",
     description: "IT asset management system",
     logo: Glpi,
-    state: true,
+    state: false,
     accessibility: true,
   },
   {
@@ -48,14 +48,14 @@ const services = [
     name: "Odoo Test",
     logo: odooTest,
     description: "Testing environment for Odoo",
-    state: true,
+    state: false,
     accessibility: true,
   },
   {
     name: "ReportingDB",
     logo: postgre,
     description: "Reporting DataBase",
-    state: true,
+    state: false,
     accessibility: false,
   },
   {
@@ -90,14 +90,14 @@ const services = [
     name: "Issabel",
     logo: issabel1,
     description: "Lien vers issabel",
-    state: true,
+    state: false,
     accessibility: true,
   },
   {
     name: "odooSupport",
     logo: odooSupport,
     description: "Lien vers issabel",
-    state: true,
+    state: false,
     accessibility: true,
   },
   {
