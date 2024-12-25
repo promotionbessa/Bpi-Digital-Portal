@@ -5,10 +5,12 @@ import './Main.css'; // Import the CSS file for styling
 import Explanation from '../Explanation/Explanation';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import navBar from '../navBar/navBar';
 
 const Main = () => {
   return (
     <div>
+      <navBar />
       <Header />
       <div className='main'>
         {data.map(row => (
