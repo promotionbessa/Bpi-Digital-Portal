@@ -1,16 +1,16 @@
 import React from 'react'
 import Card from '../Card/Card'
 import data from '../../data/data.json';
-import './Main.css'; // Import the CSS file for styling
+import './Main.css'; 
 import Explanation from '../Explanation/Explanation';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import navBar from '../navBar/navBar';
+import NavBar from '../NavBar/NavBar';
 
 const Main = () => {
   return (
     <div>
-      <navBar />
+      <NavBar />
       <Header />
       <div className='main'>
         {data.map(row => (
