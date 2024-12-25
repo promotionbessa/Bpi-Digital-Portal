@@ -11,7 +11,7 @@ import google from '../../static/google.png';
 import hubspot from '../../static/hubspot.png';
 import issabel1 from '../../static/issabel1.jpeg';
 import helpDesk from '../../static/helpDesk.png';
-import './Card.css'; // Import the CSS file for styling
+import './Card.css'; 
 import { useState } from 'react';
 import Hover from '../Hover/Hover';
 
@@ -44,20 +44,20 @@ const services = [
     state: true,
     accessibility: true,
   },
-  // {
-  //   name: "Odoo Test",
-  //   logo: odooTest,
-  //   description: "Testing environment for Odoo",
-  //   state: true,
-  //   accessibility: true,
-  // },
-  // {
-  //   name: "ReportingDB",
-  //   logo: postgre,
-  //   description: "Reporting DataBase",
-  //   state: true,
-  //   accessibility: false,
-  // },
+  {
+    name: "Odoo Test",
+    logo: odooTest,
+    description: "Testing environment for Odoo",
+    state: true,
+    accessibility: true,
+  },
+  {
+    name: "ReportingDB",
+    logo: postgre,
+    description: "Reporting DataBase",
+    state: true,
+    accessibility: false,
+  },
   {
     name: "ODOO Simonto",
     logo: Simonto,
@@ -65,13 +65,13 @@ const services = [
     state: true,
     accessibility: true,
   },
-  // {
-  //   name: "Assistance IT/ODOO",
-  //   logo: odooSupport,
-  //   description: "IT and Odoo support service",
-  //   state: true,
-  //   accessibility: true,
-  // },
+  {
+    name: "Assistance IT/ODOO",
+    logo: odooSupport,
+    description: "IT and Odoo support service",
+    state: true,
+    accessibility: true,
+  },
   {
     name: "Google",
     logo: google,
@@ -86,20 +86,20 @@ const services = [
     state: true,
     accessibility: true,
   },
-  // {
-  //   name: "Issabel",
-  //   logo: issabel1,
-  //   description: "Lien vers issabel",
-  //   state: true,
-  //   accessibility: true,
-  // },
-  // {
-  //   name: "odooSupport",
-  //   logo: odooSupport,
-  //   description: "Lien vers issabel",
-  //   state: true,
-  //   accessibility: true,
-  // },
+  {
+    name: "Issabel",
+    logo: issabel1,
+    description: "Lien vers issabel",
+    state: true,
+    accessibility: true,
+  },
+  {
+    name: "odooSupport",
+    logo: odooSupport,
+    description: "Lien vers issabel",
+    state: true,
+    accessibility: true,
+  },
   {
     name: "helpDesk",
     logo: helpDesk,
