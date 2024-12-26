@@ -5,7 +5,7 @@ import './Main.css';
 import Explanation from '../Explanation/Explanation';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import NavBar from '../NavBar/NavBar';
+import NavBar from '../navBar/navBar';
 
 const Main = () => {
   return (

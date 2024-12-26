@@ -1,7 +1,7 @@
-import React from 'react';
-import './NavBar.css'; 
+import React from 'react'
+import './NavBar.css'
 
-function NavBar() {
+const NavBar= () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
